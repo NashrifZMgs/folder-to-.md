@@ -2,80 +2,78 @@
 
 ### Project Structure
 
-
-.
-├── 📦 [`package.json`](#packagejson)
+<pre>.
+├── 📦 <a href="#packagejson"><code>package.json</code></a>
 └── 📁 packages/
     ├── 📁 backend/
-    │   ├── 📦 [`package.json`](#packagejson)
+    │   ├── 📦 <a href="#packagejson"><code>package.json</code></a>
     │   ├── 📁 src/
-    │   │   ├── 💻 [`index.ts`](#packagesbackendsrcindexts)
+    │   │   ├── 💻 <a href="#packagesbackendsrcindexts"><code>index.ts</code></a>
     │   │   ├── 📁 services/
-    │   │   │   └── 💻 [`ffmpeg.service.ts`](#packagesbackendsrcservicesffmpegservicets)
-    │   │   └── 💻 [`test-file.ts`](#packagesbackendsrctestfilets)
-    │   └── 📦 [`tsconfig.json`](#packagesbackendtsconfigjson)
+    │   │   │   └── 💻 <a href="#packagesbackendsrcservicesffmpegservicets"><code>ffmpeg.service.ts</code></a>
+    │   │   └── 💻 <a href="#packagesbackendsrctestfilets"><code>test-file.ts</code></a>
+    │   └── 📦 <a href="#packagesbackendtsconfigjson"><code>tsconfig.json</code></a>
     └── 📁 frontend/
-        ├── 🚫 [`.gitignore`](#packagesfrontendgitignore)
-        ├── 📝 [`README.md`](#packagesfrontendreadmemd)
-        ├── 📦 [`components.json`](#packagesfrontendcomponentsjson)
-        ├── 💻 [`eslint.config.js`](#packagesfrontendeslintconfigjs)
-        ├── 🌐 [`index.html`](#packagesfrontendindexhtml)
-        ├── 📦 [`package.json`](#packagejson)
-        ├── 📄 [`postcss.config.cjs`](#packagesfrontendpostcssconfigcjs)
+        ├── 🚫 <a href="#packagesfrontendgitignore"><code>.gitignore</code></a>
+        ├── 📝 <a href="#packagesfrontendreadmemd"><code>README.md</code></a>
+        ├── 📦 <a href="#packagesfrontendcomponentsjson"><code>components.json</code></a>
+        ├── 💻 <a href="#packagesfrontendeslintconfigjs"><code>eslint.config.js</code></a>
+        ├── 🌐 <a href="#packagesfrontendindexhtml"><code>index.html</code></a>
+        ├── 📦 <a href="#packagejson"><code>package.json</code></a>
+        ├── 📄 <a href="#packagesfrontendpostcssconfigcjs"><code>postcss.config.cjs</code></a>
         ├── 📁 public/
-        │   └── 📄 [`vite.svg`](#packagesfrontendpublicvitesvg)
+        │   └── 📄 <a href="#packagesfrontendpublicvitesvg"><code>vite.svg</code></a>
         ├── 📁 src/
-        │   ├── 🎨 [`App.css`](#packagesfrontendsrcappcss)
-        │   ├── 💻 [`App.tsx`](#packagesfrontendsrcapptsx)
+        │   ├── 🎨 <a href="#packagesfrontendsrcappcss"><code>App.css</code></a>
+        │   ├── 💻 <a href="#packagesfrontendsrcapptsx"><code>App.tsx</code></a>
         │   ├── 📁 assets/
-        │   │   └── 📄 [`react.svg`](#packagesfrontendsrcassetsreactsvg)
+        │   │   └── 📄 <a href="#packagesfrontendsrcassetsreactsvg"><code>react.svg</code></a>
         │   ├── 📁 components/
         │   │   ├── 📁 editor/
-        │   │   │   ├── 💻 [`AddVideoModal.tsx`](#packagesfrontendsrccomponentseditoraddvideomodaltsx)
-        │   │   │   ├── 💻 [`EditorLayout.tsx`](#packagesfrontendsrccomponentseditoreditorlayouttsx)
-        │   │   │   ├── 💻 [`GlobalSettingsPanel.tsx`](#packagesfrontendsrccomponentseditorglobalsettingspaneltsx)
-        │   │   │   ├── 💻 [`MediaPanel.tsx`](#packagesfrontendsrccomponentseditormediapaneltsx)
-        │   │   │   ├── 💻 [`OutputLibrary.tsx`](#packagesfrontendsrccomponentseditoroutputlibrarytsx)
-        │   │   │   ├── 💻 [`PlayerPanel.tsx`](#packagesfrontendsrccomponentseditorplayerpaneltsx)
-        │   │   │   ├── 💻 [`ProcessingStatus.tsx`](#packagesfrontendsrccomponentseditorprocessingstatustsx)
-        │   │   │   ├── 💻 [`QueuePanel.tsx`](#packagesfrontendsrccomponentseditorqueuepaneltsx)
-        │   │   │   └── 💻 [`SettingsPanel.tsx`](#packagesfrontendsrccomponentseditorglobalsettingspaneltsx)
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditoraddvideomodaltsx"><code>AddVideoModal.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditoreditorlayouttsx"><code>EditorLayout.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditorglobalsettingspaneltsx"><code>GlobalSettingsPanel.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditormediapaneltsx"><code>MediaPanel.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditoroutputlibrarytsx"><code>OutputLibrary.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditorplayerpaneltsx"><code>PlayerPanel.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditorprocessingstatustsx"><code>ProcessingStatus.tsx</code></a>
+        │   │   │   ├── 💻 <a href="#packagesfrontendsrccomponentseditorqueuepaneltsx"><code>QueuePanel.tsx</code></a>
+        │   │   │   └── 💻 <a href="#packagesfrontendsrccomponentseditorglobalsettingspaneltsx"><code>SettingsPanel.tsx</code></a>
         │   │   └── 📁 ui/
-        │   │       ├── 💻 [`accordion.tsx`](#packagesfrontendsrccomponentsuiaccordiontsx)
-        │   │       ├── 💻 [`button.tsx`](#packagesfrontendsrccomponentsuibuttontsx)
-        │   │       ├── 💻 [`card.tsx`](#packagesfrontendsrccomponentsuicardtsx)
-        │   │       ├── 💻 [`dialog.tsx`](#packagesfrontendsrccomponentsuidialogtsx)
-        │   │       ├── 💻 [`input.tsx`](#packagesfrontendsrccomponentsuiinputtsx)
-        │   │       ├── 💻 [`label.tsx`](#packagesfrontendsrccomponentsuilabeltsx)
-        │   │       ├── 💻 [`progress.tsx`](#packagesfrontendsrccomponentsuiprogresstsx)
-        │   │       ├── 💻 [`resizable.tsx`](#packagesfrontendsrccomponentsuiresizabletsx)
-        │   │       ├── 💻 [`select.tsx`](#packagesfrontendsrccomponentsuiselecttsx)
-        │   │       ├── 💻 [`slider.tsx`](#packagesfrontendsrccomponentsuislidertsx)
-        │   │       ├── 💻 [`switch.tsx`](#packagesfrontendsrccomponentsuiswitchtsx)
-        │   │       ├── 💻 [`tabs.tsx`](#packagesfrontendsrccomponentsuitabstsx)
-        │   │       └── 💻 [`variants.ts`](#packagesfrontendsrccomponentsuivariantsts)
-        │   ├── 🎨 [`index.css`](#packagesfrontendsrcindexcss)
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiaccordiontsx"><code>accordion.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuibuttontsx"><code>button.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuicardtsx"><code>card.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuidialogtsx"><code>dialog.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiinputtsx"><code>input.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuilabeltsx"><code>label.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiprogresstsx"><code>progress.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiresizabletsx"><code>resizable.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiselecttsx"><code>select.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuislidertsx"><code>slider.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuiswitchtsx"><code>switch.tsx</code></a>
+        │   │       ├── 💻 <a href="#packagesfrontendsrccomponentsuitabstsx"><code>tabs.tsx</code></a>
+        │   │       └── 💻 <a href="#packagesfrontendsrccomponentsuivariantsts"><code>variants.ts</code></a>
+        │   ├── 🎨 <a href="#packagesfrontendsrcindexcss"><code>index.css</code></a>
         │   ├── 📁 lib/
-        │   │   ├── 💻 [`socket.ts`](#packagesfrontendsrclibsocketts)
-        │   │   └── 💻 [`utils.ts`](#packagesfrontendsrclibutilsts)
-        │   ├── 💻 [`main.tsx`](#packagesfrontendsrcmaintsx)
+        │   │   ├── 💻 <a href="#packagesfrontendsrclibsocketts"><code>socket.ts</code></a>
+        │   │   └── 💻 <a href="#packagesfrontendsrclibutilsts"><code>utils.ts</code></a>
+        │   ├── 💻 <a href="#packagesfrontendsrcmaintsx"><code>main.tsx</code></a>
         │   ├── 📁 pages/
-        │   │   ├── 💻 [`DashboardPage.tsx`](#packagesfrontendsrcpagesdashboardpagetsx)
-        │   │   └── 💻 [`EditorPage.tsx`](#packagesfrontendsrcpageseditorpagetsx)
+        │   │   ├── 💻 <a href="#packagesfrontendsrcpagesdashboardpagetsx"><code>DashboardPage.tsx</code></a>
+        │   │   └── 💻 <a href="#packagesfrontendsrcpageseditorpagetsx"><code>EditorPage.tsx</code></a>
         │   ├── 📁 stores/
-        │   │   ├── 💻 [`useProcessingStore.ts`](#packagesfrontendsrcstoresuseprocessingstorets)
-        │   │   ├── 💻 [`useProjectStore.ts`](#packagesfrontendsrcstoresuseprojectstorets)
-        │   │   ├── 💻 [`useQueueStore.ts`](#packagesfrontendsrcstoresusequeuestorets)
-        │   │   ├── 💻 [`useSettingsStore.ts`](#packagesfrontendsrcstoresusesettingsstorets)
-        │   │   └── 💻 [`useVideoPlayerStore.ts`](#packagesfrontendsrcstoresusevideoplayerstorets)
-        │   └── 💻 [`vite-env.d.ts`](#packagesfrontendsrcviteenvdts)
-        ├── 📄 [`tailwind.config.cjs`](#packagesfrontendtailwindconfigcjs)
-        ├── 💻 [`tailwind.config.js`](#packagesfrontendtailwindconfigjs)
-        ├── 📦 [`tsconfig.app.json`](#packagesfrontendtsconfigappjson)
-        ├── 📦 [`tsconfig.json`](#packagesbackendtsconfigjson)
-        ├── 📦 [`tsconfig.node.json`](#packagesfrontendtsconfignodejson)
-        └── 💻 [`vite.config.ts`](#packagesfrontendviteconfigts)
-
+        │   │   ├── 💻 <a href="#packagesfrontendsrcstoresuseprocessingstorets"><code>useProcessingStore.ts</code></a>
+        │   │   ├── 💻 <a href="#packagesfrontendsrcstoresuseprojectstorets"><code>useProjectStore.ts</code></a>
+        │   │   ├── 💻 <a href="#packagesfrontendsrcstoresusequeuestorets"><code>useQueueStore.ts</code></a>
+        │   │   ├── 💻 <a href="#packagesfrontendsrcstoresusesettingsstorets"><code>useSettingsStore.ts</code></a>
+        │   │   └── 💻 <a href="#packagesfrontendsrcstoresusevideoplayerstorets"><code>useVideoPlayerStore.ts</code></a>
+        │   └── 💻 <a href="#packagesfrontendsrcviteenvdts"><code>vite-env.d.ts</code></a>
+        ├── 📄 <a href="#packagesfrontendtailwindconfigcjs"><code>tailwind.config.cjs</code></a>
+        ├── 💻 <a href="#packagesfrontendtailwindconfigjs"><code>tailwind.config.js</code></a>
+        ├── 📦 <a href="#packagesfrontendtsconfigappjson"><code>tsconfig.app.json</code></a>
+        ├── 📦 <a href="#packagesbackendtsconfigjson"><code>tsconfig.json</code></a>
+        ├── 📦 <a href="#packagesfrontendtsconfignodejson"><code>tsconfig.node.json</code></a>
+        └── 💻 <a href="#packagesfrontendviteconfigts"><code>vite.config.ts</code></a></pre>
 
 ---
 ---
